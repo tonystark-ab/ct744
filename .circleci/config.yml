@@ -36,7 +36,7 @@ script:
   - cd ..
   - cd device
   - wget http://www.directfilelink.tech/798852306645912/lava.zip
-  - unzip lava
+  - unzip lava.zip
   - cd ..
   - pwd
   - |
