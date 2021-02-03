@@ -60,7 +60,7 @@ after_success:
 deploy:
   skip_cleanup: true
   provider: releases
-  # The secret api_key will be loaded from the environment variables
+  # The secret api_key will bd from the environment variables
   api_key: $GitOAUTHToken
   file_glob: true
   file: $HOME/twrp/*.img
