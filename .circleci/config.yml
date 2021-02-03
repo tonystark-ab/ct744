@@ -70,7 +70,7 @@ deploy:
     branch: master # Optional: Needs to be exact as the config branch
 branches:
   only:
-    - master # Set travis builder branch(es) names
+    - master # Set trs builder branch(es) names
   except:
     - /^(?i:untagged)-.*$/
     - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
